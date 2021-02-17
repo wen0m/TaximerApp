@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "987616385040",
+    "firebase_url": "https://taximer-2c00a.firebaseio.com",
+    "project_id": "taximer-2c00a",
+    "storage_bucket": "taximer-2c00a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987616385040:android:a64de948f051afc0",
+        "android_client_info": {
+          "package_name": "com.taximer.taximer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "987616385040-02qnvsislh18gfrmb6cpm0v6drau6ps2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSmK8MSqhYxKBizkvN1ZaVeMVWY9MSSSU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987616385040:android:aec097e6a43a6900",
+        "android_client_info": {
+          "package_name": "ru.taximer.taxiandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "987616385040-02qnvsislh18gfrmb6cpm0v6drau6ps2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSmK8MSqhYxKBizkvN1ZaVeMVWY9MSSSU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,57 @@
+<resources>
+    <string name="facebook_app_id">2068265943484557</string>
+    <string name="fb_login_protocol_scheme">fb518531161921395</string>
+
+    <string name="app_name">Таксимер</string>
+    <string name="error_location">Cant find curr location</string>
+    <string name="label_ok">OK</string>
+
+    <string name="splash_description">Все такси в одном месте</string>
+    <string name="label_notification">Уведомления</string>
+    <string name="label_share_app">Поделиться приложением</string>
+    <string name="label_mark_app">Оценить приложение</string>
+    <string name="label_feedback">Написать нам</string>
+    <string name="label_taxiactivity">Выберите, с кем поехать</string>
+
+    <!--====================================================================-->
+    <!-- Rationales -->
+
+    <string name="rationale_location_permission">Для определения положения, разрешите доступ к локации</string>
+    <string name="rationale_gps_is_off">Включите определение местоположения для корректной работы приложения</string>
+    <string name="rationale_o_internet_off">Отсутствует интернет соединение</string>
+    <string name="rationale_o_internet_on">Соединение восстановлено</string>
+    <string name="rationale_error">Что-то пошло не так, попробуйте позже</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_main_taxi_screen">MainTaxiScreen</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Фильтры</string>
+    <string name="share_app">Привет, я нашел самое дешевое такси в городе. Попробуй сравнить все цены на такси в приложении Таксимер. Качай по ссылке: </string>
+
+    <string name="label_settings_economy_title">Эконом</string>
+    <string name="label_settings_economy_description">Недорогие поездки на каждый день</string>
+    <string name="label_settings_child_title">Детское кресло</string>
+    <string name="label_settings_child_description">Для детей от 3 до 12 лет</string>
+    <string name="label_settings_comfort_title">Комфорт</string>
+    <string name="label_settings_comfort_description">Комфортные тихие машины</string>
+    <string name="label_settings_buisnes_title">Бизнес</string>
+    <string name="label_settings_buisnes_description">Представительский класс</string>
+    <string name="label_settings_miniven_title">Минивэн</string>
+    <string name="label_settings_miniven_description">На 6–8 мест для больших компаний</string>
+
+    <string name="label_to">Куда?</string>
+    <string name="first_label_to">Куда поедем?</string>
+    <string name="label_from">Откуда?</string>
+    <string name="where_going_btn_Text">Найти такси</string>
+    <string name="done_btn_Text">Готово</string>
+    <string name="show_on_map_text">Указать на карте</string>
+    <string name="label_text">Лучший выбор</string>
+    <string name="no_such_address"><b> Ooops! </b> Такого дома не существует "\t" Посмотрите другие варианты :</string>
+    <string name="change_addr_str">Изменить адрес</string>
+    <string name="carsharing_header">Каршеринги</string>
+    <string name="finding_address">Определяем адрес</string>
+
+</resources>

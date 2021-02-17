@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainTaxiScreen">
+
+
+    <FrameLayout
+        android:id="@+id/rootContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment
+            android:id="@+id/mapFragment"
+            android:name="ru.taximer.taxiandroid.ui.fragments.MapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/goButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="16dp"
+            android:background="@drawable/button_selector"
+            android:minHeight="60dp"
+            android:text="@string/where_going_btn_Text"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/goBar"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="32dp"
+            android:allowUndo="false"
+            android:background="@drawable/bottom_sheet_shape"
+            android:clickable="true"
+            android:drawableStart="@drawable/ic_icon_marker_yellow"
+            android:drawablePadding="16dp"
+            android:elevation="4dp"
+            android:focusable="false"
+            android:fontFamily="@font/droid_serif"
+            android:hint="@string/first_label_to"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textColorHint="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:visibility="invisible"
+            app:layout_anchor="@+id/rootContainer"
+            app:layout_anchorGravity="bottom|center" />
+
+    </FrameLayout>
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/app_bar"
+        app:elevation="0dp"
+        android:background="@android:color/transparent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:fitsSystemWindows="true"
+            android:background="@android:color/transparent" />
+    </android.support.design.widget.AppBarLayout>
+
+    <include
+        layout="@layout/bottom_sheet"
+        android:visibility="invisible" />
+
+</android.support.design.widget.CoordinatorLayout>

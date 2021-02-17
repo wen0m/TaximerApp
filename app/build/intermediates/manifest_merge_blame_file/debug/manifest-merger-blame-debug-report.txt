@@ -1,0 +1,461 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ru.taximer.taxiandroid"
+4    android:versionCode="24"
+5    android:versionName="1.97" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="27" />
+9-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+11-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:5:5-81
+11-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:7:5-79
+13-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:8:5-81
+14-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:9:5-67
+15-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:9:22-64
+16    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+16-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:10:5-98
+16-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:10:22-95
+17
+18    <uses-feature
+18-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:12:5-14:35
+19        android:glEsVersion="0x00020000"
+19-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:13:9-41
+20        android:required="true" />
+20-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:14:9-32
+21
+22    <uses-permission android:name="android.permission.WAKE_LOCK" />
+22-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\38b82c237013f22e0a3b1f9adbb2269e\firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:24:5-68
+22-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\38b82c237013f22e0a3b1f9adbb2269e\firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:24:22-65
+23    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+23-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\5518f4be258bbb48a592634cdd69e223\firebase-analytics-16.0.4\AndroidManifest.xml:26:5-110
+23-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\5518f4be258bbb48a592634cdd69e223\firebase-analytics-16.0.4\AndroidManifest.xml:26:22-107
+24    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+24-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\52d472e1952e4b256c4630957968643b\firebase-iid-17.0.4\AndroidManifest.xml:26:5-82
+24-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\52d472e1952e4b256c4630957968643b\firebase-iid-17.0.4\AndroidManifest.xml:26:22-79
+25
+26    <application
+26-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:16:5-117:19
+27        android:name="ru.taximer.taxiandroid.TaximerApp"
+27-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:17:9-35
+28        android:allowBackup="true"
+28-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:18:9-35
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:19:9-43
+31        android:label="@string/app_name"
+31-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:20:9-41
+32        android:supportsRtl="true"
+32-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:21:9-35
+33        android:theme="@style/Taximer" >
+33-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:22:9-39
+34        <meta-data
+34-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:23:9-25:71
+35            android:name="com.google.android.geo.API_KEY"
+35-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:24:13-58
+36            android:value="AIzaSyCT2OkrZd0SkgUN-p7DGve-wTBPAQrJsBI" />
+36-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:25:13-68
+37        <meta-data
+37-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:26:9-28:72
+38            android:name="io.fabric.ApiKey"
+38-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:27:13-44
+39            android:value="acadae9cdf9e3d14ae3e4ff78496c5eccb8b0900" />
+39-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:28:13-69
+40        <meta-data
+40-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:30:9-31:54
+41            android:name="com.facebook.sdk.ApplicationId"
+41-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:30:20-65
+42            android:value="@string/facebook_app_id" />
+42-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:31:13-52
+43        <meta-data
+43-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:33:9-119
+44            android:name="io.branch.sdk.BranchKey"
+44-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:33:20-58
+45            android:value="key_live_gnNngJWf4tFWDbzCLmx4YojnEvlyKmBM" />
+45-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:33:59-116
+46        <meta-data
+46-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:34:9-82
+47            android:name="io.branch.sdk.TestMode"
+47-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:34:20-57
+48            android:value="false" />
+48-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:34:58-79
+49        <meta-data
+49-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:35:9-37:57
+50            android:name="preloaded_fonts"
+50-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:36:13-43
+51            android:resource="@array/preloaded_fonts" />
+51-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:37:13-54
+52
+53        <activity
+53-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:39:9-42:48
+54            android:name="com.facebook.FacebookActivity"
+54-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:39:19-63
+55            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+55-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:40:13-114
+56            android:label="@string/app_name"
+56-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:42:13-45
+57            android:theme="@style/com_facebook_activity_theme" />
+57-->[com.facebook.android:facebook-common:4.38.0] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\2cbfbb612dcec4f09943208738e2d0ac\facebook-common-4.38.0\AndroidManifest.xml:32:13-63
+58        <activity
+58-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:43:9-52:20
+59            android:name="com.facebook.CustomTabActivity"
+59-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:44:13-58
+60            android:exported="true" >
+60-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:45:13-36
+61            <intent-filter>
+61-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:46:13-51:29
+62                <action android:name="android.intent.action.VIEW" />
+62-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:47:17-69
+62-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:47:25-66
+63
+64                <category android:name="android.intent.category.DEFAULT" />
+64-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:48:17-76
+64-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:48:27-73
+65                <category android:name="android.intent.category.BROWSABLE" />
+65-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:49:17-78
+65-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:49:27-75
+66
+67                <data android:scheme="@string/fb_login_protocol_scheme" />
+67-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:50:17-75
+67-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:50:23-72
+68            </intent-filter>
+69        </activity>
+70        <activity
+70-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:55:9-59:58
+71            android:name="ru.taximer.taxiandroid.ui.TaxiActivity"
+71-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:55:19-50
+72            android:label="@string/label_taxiactivity"
+72-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:58:13-55
+73            android:launchMode="singleTop"
+73-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:57:13-43
+74            android:screenOrientation="portrait"
+74-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:56:13-49
+75            android:theme="@style/AppTheme.NoActionBar" />
+75-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:59:13-56
+76        <activity
+76-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:61:9-64:58
+77            android:name="ru.taximer.taxiandroid.ui.SettingsActivity"
+77-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:61:19-54
+78            android:label="@string/action_settings"
+78-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:62:13-52
+79            android:screenOrientation="portrait"
+79-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:63:13-49
+80            android:theme="@style/AppTheme.NoActionBar" />
+80-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:64:13-56
+81        <activity
+81-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:66:9-82:20
+82            android:name="ru.taximer.taxiandroid.ui.SplashActivity"
+82-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:67:13-46
+83            android:launchMode="singleTop"
+83-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:68:13-43
+84            android:screenOrientation="portrait" >
+84-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:69:13-49
+85            <intent-filter>
+85-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:70:13-74:29
+86                <action android:name="android.intent.action.MAIN" />
+86-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:71:17-69
+86-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:71:25-66
+87
+88                <category android:name="android.intent.category.LAUNCHER" />
+88-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:73:17-77
+88-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:73:27-74
+89            </intent-filter>
+90            <intent-filter>
+90-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:76:13-81:29
+91                <data
+91-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:50:17-75
+92                    android:host="open"
+92-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:77:48-67
+93                    android:scheme="taximer" />
+93-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:50:23-72
+94
+95                <action android:name="android.intent.action.VIEW" />
+95-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:47:17-69
+95-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:47:25-66
+96
+97                <category android:name="android.intent.category.DEFAULT" />
+97-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:48:17-76
+97-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:48:27-73
+98                <category android:name="android.intent.category.BROWSABLE" />
+98-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:49:17-78
+98-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:49:27-75
+99            </intent-filter>
+100        </activity>
+101        <activity
+101-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:83:9-88:58
+102            android:name="ru.taximer.taxiandroid.ui.MainTaxiScreen"
+102-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:84:13-46
+103            android:label=" "
+103-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:85:13-30
+104            android:screenOrientation="portrait"
+104-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:87:13-49
+105            android:theme="@style/AppTheme.NoActionBar"
+105-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:88:13-56
+106            android:windowSoftInputMode="adjustResize" />
+106-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:86:13-55
+107
+108        <receiver
+108-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:90:9-94:20
+109            android:name="com.my.tracker.campaign.MultipleInstallReceiver"
+109-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:90:19-81
+110            android:exported="true" >
+110-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:90:82-105
+111            <intent-filter>
+111-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:91:13-93:29
+112                <action android:name="com.android.vending.INSTALL_REFERRER" />
+112-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:92:17-78
+112-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:92:25-76
+113            </intent-filter>
+114        </receiver>
+115        <receiver
+115-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:96:9-100:20
+116            android:name="io.branch.referral.InstallListener"
+116-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:96:19-68
+117            android:exported="true" >
+117-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:96:69-92
+118            <intent-filter>
+118-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:91:13-93:29
+119                <action android:name="com.android.vending.INSTALL_REFERRER" />
+119-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:92:17-78
+119-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:92:25-76
+120            </intent-filter>
+121        </receiver>
+122
+123        <service android:name="com.my.tracker.campaign.CampaignService" />
+123-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:102:9-74
+123-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:102:18-72
+124        <service android:name="ru.taximer.taxiandroid.TaxiFirebaseInstanceIDService" >
+124-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:104:9-109:19
+124-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:105:13-58
+125            <intent-filter>
+125-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:106:13-108:29
+126                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+126-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:107:17-79
+126-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:107:25-77
+127            </intent-filter>
+128        </service>
+129
+130        <!-- <service android:name=".MyFirebaseMessagingService"> -->
+131        <!-- <intent-filter> -->
+132        <!-- <action android:name="com.google.firebase.MESSAGING_EVENT" /> -->
+133        <!-- </intent-filter> -->
+134        <!-- </service> -->
+135
+136        <activity android:name="com.facebook.CustomTabMainActivity" />
+136-->[com.facebook.android:facebook-common:4.38.0] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\2cbfbb612dcec4f09943208738e2d0ac\facebook-common-4.38.0\AndroidManifest.xml:33:9-71
+136-->[com.facebook.android:facebook-common:4.38.0] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\2cbfbb612dcec4f09943208738e2d0ac\facebook-common-4.38.0\AndroidManifest.xml:33:19-68
+137
+138        <meta-data
+138-->[com.google.maps.android:android-maps-utils:0.5] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\b93499f3cc86bfb84bb473592d6beaa0\android-maps-utils-0.5\AndroidManifest.xml:8:9-10:69
+139            android:name="com.google.android.gms.version"
+139-->[com.google.maps.android:android-maps-utils:0.5] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\b93499f3cc86bfb84bb473592d6beaa0\android-maps-utils-0.5\AndroidManifest.xml:9:13-58
+140            android:value="@integer/google_play_services_version" />
+140-->[com.google.maps.android:android-maps-utils:0.5] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\b93499f3cc86bfb84bb473592d6beaa0\android-maps-utils-0.5\AndroidManifest.xml:10:13-66
+141        <!--
+142             FirebaseMessagingService performs security checks at runtime,
+143             no need for explicit permissions despite exported="true"
+144        -->
+145        <service
+145-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\26d8b10bcb9dda3c243a81e3e664bed6\firebase-messaging-17.3.4\AndroidManifest.xml:28:9-34:19
+146            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+146-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\26d8b10bcb9dda3c243a81e3e664bed6\firebase-messaging-17.3.4\AndroidManifest.xml:29:13-82
+147            android:exported="true" >
+147-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\26d8b10bcb9dda3c243a81e3e664bed6\firebase-messaging-17.3.4\AndroidManifest.xml:30:13-36
+148            <intent-filter android:priority="-500" >
+148-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\26d8b10bcb9dda3c243a81e3e664bed6\firebase-messaging-17.3.4\AndroidManifest.xml:31:13-33:29
+148-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\26d8b10bcb9dda3c243a81e3e664bed6\firebase-messaging-17.3.4\AndroidManifest.xml:31:28-51
+149                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+149-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\26d8b10bcb9dda3c243a81e3e664bed6\firebase-messaging-17.3.4\AndroidManifest.xml:32:17-78
+149-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\26d8b10bcb9dda3c243a81e3e664bed6\firebase-messaging-17.3.4\AndroidManifest.xml:32:25-75
+150            </intent-filter>
+151        </service>
+152        <service
+152-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\38b82c237013f22e0a3b1f9adbb2269e\firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:27:9-31:19
+153            android:name="com.google.firebase.components.ComponentDiscoveryService"
+153-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\38b82c237013f22e0a3b1f9adbb2269e\firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:27:18-89
+154            android:exported="false" >
+154-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\52d472e1952e4b256c4630957968643b\firebase-iid-17.0.4\AndroidManifest.xml:31:13-37
+155            <meta-data
+155-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\38b82c237013f22e0a3b1f9adbb2269e\firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:28:13-30:85
+156                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+156-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\38b82c237013f22e0a3b1f9adbb2269e\firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:29:17-139
+157                android:value="com.google.firebase.components.ComponentRegistrar" />
+157-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\38b82c237013f22e0a3b1f9adbb2269e\firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:30:17-82
+158            <meta-data
+158-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\52d472e1952e4b256c4630957968643b\firebase-iid-17.0.4\AndroidManifest.xml:32:13-34:85
+159                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+159-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\52d472e1952e4b256c4630957968643b\firebase-iid-17.0.4\AndroidManifest.xml:33:17-96
+160                android:value="com.google.firebase.components.ComponentRegistrar" />
+160-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\52d472e1952e4b256c4630957968643b\firebase-iid-17.0.4\AndroidManifest.xml:34:17-82
+161        </service>
+162
+163        <receiver
+163-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\5518f4be258bbb48a592634cdd69e223\firebase-analytics-16.0.4\AndroidManifest.xml:29:9-33:20
+164            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+164-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\5518f4be258bbb48a592634cdd69e223\firebase-analytics-16.0.4\AndroidManifest.xml:30:13-85
+165            android:enabled="true"
+165-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\5518f4be258bbb48a592634cdd69e223\firebase-analytics-16.0.4\AndroidManifest.xml:31:13-35
+166            android:exported="false" >
+166-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\5518f4be258bbb48a592634cdd69e223\firebase-analytics-16.0.4\AndroidManifest.xml:32:13-37
+167        </receiver>
+168        <receiver
+168-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\5518f4be258bbb48a592634cdd69e223\firebase-analytics-16.0.4\AndroidManifest.xml:34:9-42:20
+169            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+169-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\5518f4be258bbb48a592634cdd69e223\firebase-analytics-16.0.4\AndroidManifest.xml:35:13-100
+170            android:enabled="true"
+170-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\5518f4be258bbb48a592634cdd69e223\firebase-analytics-16.0.4\AndroidManifest.xml:36:13-35
+171            android:exported="true"
+171-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\5518f4be258bbb48a592634cdd69e223\firebase-analytics-16.0.4\AndroidManifest.xml:37:13-36
+172            android:permission="android.permission.INSTALL_PACKAGES" >
+172-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\5518f4be258bbb48a592634cdd69e223\firebase-analytics-16.0.4\AndroidManifest.xml:38:13-69
+173            <intent-filter>
+173-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:91:13-93:29
+174                <action android:name="com.android.vending.INSTALL_REFERRER" />
+174-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:92:17-78
+174-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:92:25-76
+175            </intent-filter>
+176        </receiver>
+177
+178        <service
+178-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\5518f4be258bbb48a592634cdd69e223\firebase-analytics-16.0.4\AndroidManifest.xml:44:9-47:40
+179            android:name="com.google.android.gms.measurement.AppMeasurementService"
+179-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\5518f4be258bbb48a592634cdd69e223\firebase-analytics-16.0.4\AndroidManifest.xml:45:13-84
+180            android:enabled="true"
+180-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\5518f4be258bbb48a592634cdd69e223\firebase-analytics-16.0.4\AndroidManifest.xml:46:13-35
+181            android:exported="false" />
+181-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\5518f4be258bbb48a592634cdd69e223\firebase-analytics-16.0.4\AndroidManifest.xml:47:13-37
+182        <service
+182-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\5518f4be258bbb48a592634cdd69e223\firebase-analytics-16.0.4\AndroidManifest.xml:48:9-52:72
+183            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+183-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\5518f4be258bbb48a592634cdd69e223\firebase-analytics-16.0.4\AndroidManifest.xml:49:13-87
+184            android:enabled="true"
+184-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\5518f4be258bbb48a592634cdd69e223\firebase-analytics-16.0.4\AndroidManifest.xml:50:13-35
+185            android:exported="false"
+185-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\5518f4be258bbb48a592634cdd69e223\firebase-analytics-16.0.4\AndroidManifest.xml:51:13-37
+186            android:permission="android.permission.BIND_JOB_SERVICE" />
+186-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\5518f4be258bbb48a592634cdd69e223\firebase-analytics-16.0.4\AndroidManifest.xml:52:13-69
+187
+188        <receiver
+188-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\52d472e1952e4b256c4630957968643b\firebase-iid-17.0.4\AndroidManifest.xml:37:9-44:20
+189            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+189-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\52d472e1952e4b256c4630957968643b\firebase-iid-17.0.4\AndroidManifest.xml:38:13-78
+190            android:exported="true"
+190-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\52d472e1952e4b256c4630957968643b\firebase-iid-17.0.4\AndroidManifest.xml:39:13-36
+191            android:permission="com.google.android.c2dm.permission.SEND" >
+191-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\52d472e1952e4b256c4630957968643b\firebase-iid-17.0.4\AndroidManifest.xml:40:13-73
+192            <intent-filter>
+192-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\52d472e1952e4b256c4630957968643b\firebase-iid-17.0.4\AndroidManifest.xml:41:13-43:29
+193                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+193-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\52d472e1952e4b256c4630957968643b\firebase-iid-17.0.4\AndroidManifest.xml:42:17-81
+193-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\52d472e1952e4b256c4630957968643b\firebase-iid-17.0.4\AndroidManifest.xml:42:25-78
+194            </intent-filter>
+195        </receiver>
+196        <!--
+197             FirebaseInstanceIdService performs security checks at runtime,
+198             no need for explicit permissions despite exported="true"
+199        -->
+200        <service
+200-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\52d472e1952e4b256c4630957968643b\firebase-iid-17.0.4\AndroidManifest.xml:50:9-56:19
+201            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+201-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\52d472e1952e4b256c4630957968643b\firebase-iid-17.0.4\AndroidManifest.xml:51:13-77
+202            android:exported="true" >
+202-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\52d472e1952e4b256c4630957968643b\firebase-iid-17.0.4\AndroidManifest.xml:52:13-36
+203            <intent-filter android:priority="-500" >
+203-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:106:13-108:29
+204                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+204-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:107:17-79
+204-->C:\Users\wen0m\AndroidStudioProjects\TaxiAndroid\app\src\main\AndroidManifest.xml:107:25-77
+205            </intent-filter>
+206        </service>
+207
+208        <activity
+208-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\7ab3606966071146752cf2fa4cd2c1bc\play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+209            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+209-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\7ab3606966071146752cf2fa4cd2c1bc\play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+210            android:exported="false"
+210-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\7ab3606966071146752cf2fa4cd2c1bc\play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+211            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+211-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\7ab3606966071146752cf2fa4cd2c1bc\play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+212
+213        <provider
+213-->[com.google.firebase:firebase-common:16.0.3] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\bd97724a776ce7dfd5b2d1c33f60d653\firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+214            android:name="com.google.firebase.provider.FirebaseInitProvider"
+214-->[com.google.firebase:firebase-common:16.0.3] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\bd97724a776ce7dfd5b2d1c33f60d653\firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+215            android:authorities="ru.taximer.taxiandroid.firebaseinitprovider"
+215-->[com.google.firebase:firebase-common:16.0.3] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\bd97724a776ce7dfd5b2d1c33f60d653\firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+216            android:exported="false"
+216-->[com.google.firebase:firebase-common:16.0.3] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\bd97724a776ce7dfd5b2d1c33f60d653\firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+217            android:initOrder="100" />
+217-->[com.google.firebase:firebase-common:16.0.3] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\bd97724a776ce7dfd5b2d1c33f60d653\firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+218
+219        <meta-data
+219-->[com.github.bumptech.glide:okhttp3-integration:1.4.0] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\4042902bd94504a30a096b98cc741e3c\okhttp3-integration-1.4.0\AndroidManifest.xml:12:9-14:43
+220            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+220-->[com.github.bumptech.glide:okhttp3-integration:1.4.0] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\4042902bd94504a30a096b98cc741e3c\okhttp3-integration-1.4.0\AndroidManifest.xml:13:13-84
+221            android:value="GlideModule" />
+221-->[com.github.bumptech.glide:okhttp3-integration:1.4.0] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\4042902bd94504a30a096b98cc741e3c\okhttp3-integration-1.4.0\AndroidManifest.xml:14:13-40
+222
+223        <provider
+223-->[com.crashlytics.sdk.android:crashlytics:2.9.5] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\c4eea656c551520a221a628a17341a4c\crashlytics-2.9.5\AndroidManifest.xml:12:9-16:38
+224            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+224-->[com.crashlytics.sdk.android:crashlytics:2.9.5] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\c4eea656c551520a221a628a17341a4c\crashlytics-2.9.5\AndroidManifest.xml:13:13-75
+225            android:authorities="ru.taximer.taxiandroid.crashlyticsinitprovider"
+225-->[com.crashlytics.sdk.android:crashlytics:2.9.5] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\c4eea656c551520a221a628a17341a4c\crashlytics-2.9.5\AndroidManifest.xml:14:13-75
+226            android:exported="false"
+226-->[com.crashlytics.sdk.android:crashlytics:2.9.5] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\c4eea656c551520a221a628a17341a4c\crashlytics-2.9.5\AndroidManifest.xml:15:13-37
+227            android:initOrder="90" />
+227-->[com.crashlytics.sdk.android:crashlytics:2.9.5] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\c4eea656c551520a221a628a17341a4c\crashlytics-2.9.5\AndroidManifest.xml:16:13-35
+228        <provider
+228-->[com.facebook.android:facebook-marketing:4.38.0] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\6b5621e458b9bb31e33151c253b330f7\facebook-marketing-4.38.0\AndroidManifest.xml:29:9-32:40
+229            android:name="com.facebook.marketing.internal.MarketingInitProvider"
+229-->[com.facebook.android:facebook-marketing:4.38.0] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\6b5621e458b9bb31e33151c253b330f7\facebook-marketing-4.38.0\AndroidManifest.xml:30:13-81
+230            android:authorities="ru.taximer.taxiandroid.MarketingInitProvider"
+230-->[com.facebook.android:facebook-marketing:4.38.0] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\6b5621e458b9bb31e33151c253b330f7\facebook-marketing-4.38.0\AndroidManifest.xml:31:13-73
+231            android:exported="false" />
+231-->[com.facebook.android:facebook-marketing:4.38.0] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\6b5621e458b9bb31e33151c253b330f7\facebook-marketing-4.38.0\AndroidManifest.xml:32:13-37
+232        <!--
+233         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+234         with the application context. This config is merged in with the host app's manifest,
+235         but there can only be one provider with the same authority activated at any given
+236         point; so if the end user has two or more different apps that use Facebook SDK, only the
+237         first one will be able to use the provider. To work around this problem, we use the
+238         following placeholder in the authority to identify each host application as if it was
+239         a completely different provider.
+240        -->
+241        <provider
+241-->[com.facebook.android:facebook-core:4.38.0] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\5a5b27912c195b2089d049508576ff73\facebook-core-4.38.0\AndroidManifest.xml:39:9-42:40
+242            android:name="com.facebook.internal.FacebookInitProvider"
+242-->[com.facebook.android:facebook-core:4.38.0] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\5a5b27912c195b2089d049508576ff73\facebook-core-4.38.0\AndroidManifest.xml:40:13-70
+243            android:authorities="ru.taximer.taxiandroid.FacebookInitProvider"
+243-->[com.facebook.android:facebook-core:4.38.0] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\5a5b27912c195b2089d049508576ff73\facebook-core-4.38.0\AndroidManifest.xml:41:13-72
+244            android:exported="false" />
+244-->[com.facebook.android:facebook-core:4.38.0] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\5a5b27912c195b2089d049508576ff73\facebook-core-4.38.0\AndroidManifest.xml:42:13-37
+245
+246        <receiver
+246-->[com.facebook.android:facebook-core:4.38.0] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\5a5b27912c195b2089d049508576ff73\facebook-core-4.38.0\AndroidManifest.xml:44:9-50:20
+247            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+247-->[com.facebook.android:facebook-core:4.38.0] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\5a5b27912c195b2089d049508576ff73\facebook-core-4.38.0\AndroidManifest.xml:45:13-86
+248            android:exported="false" >
+248-->[com.facebook.android:facebook-core:4.38.0] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\5a5b27912c195b2089d049508576ff73\facebook-core-4.38.0\AndroidManifest.xml:46:13-37
+249            <intent-filter>
+249-->[com.facebook.android:facebook-core:4.38.0] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\5a5b27912c195b2089d049508576ff73\facebook-core-4.38.0\AndroidManifest.xml:47:13-49:29
+250                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+250-->[com.facebook.android:facebook-core:4.38.0] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\5a5b27912c195b2089d049508576ff73\facebook-core-4.38.0\AndroidManifest.xml:48:17-95
+250-->[com.facebook.android:facebook-core:4.38.0] C:\Users\wen0m\.gradle\caches\transforms-2\files-2.1\5a5b27912c195b2089d049508576ff73\facebook-core-4.38.0\AndroidManifest.xml:48:25-92
+251            </intent-filter>
+252        </receiver>
+253    </application>
+254
+255</manifest>

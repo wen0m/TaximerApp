@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.my.tracker:mytracker-sdk:1.5.4@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d9d36b620093c143c28adebf43aa043b/mytracker-sdk-1.5.4/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d9d36b620093c143c28adebf43aa043b/mytracker-sdk-1.5.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d9d36b620093c143c28adebf43aa043b/mytracker-sdk-1.5.4/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
